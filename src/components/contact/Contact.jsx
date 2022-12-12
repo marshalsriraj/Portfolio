@@ -4,6 +4,7 @@ import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import { useContext, useRef, useState } from "react";
 import { ThemeContext } from "../../context";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const formRef = useRef();
